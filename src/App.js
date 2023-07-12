@@ -1,15 +1,33 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 
+import Home from './pages/Home';
+import Blog from './pages/Blog';
+import Product from './pages/Product';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import MainRoute from './components/MainRoute';
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <h1 class="title">Welcome to my React App!</h1>
-       <img src='https://i.gifer.com/XfQ8.gif' class="welcomeImage"></img>
-      {/* Other content of your application */}
-    </div>
+  
+  <>
+      <Navbar/>
+      <MainRoute/>
+  </>
+    // <Router>
+    //   <div>
+    //     <Navbar />
+    //     {/* <Switch>
+    //       <Route exact path="/" component={Home} />
+    //       <Route path="/blog" component={Blog} />
+    //       <Route path="/product" component={Product} />
+    //       <Route path="/register" component={Register} />
+    //       <Route path="/login" component={Login} />
+    //     </Switch>
+    //   </div> */}
+    // </Router>
+   
   );
 };
 
