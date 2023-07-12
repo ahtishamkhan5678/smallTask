@@ -1,3 +1,7 @@
+# Screenshot of my task :
+
+![Screenshot (1)](https://github.com/ahtishamkhan5678/smallTask/assets/100846744/69572474-5949-4874-b393-48bd148a544e)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
